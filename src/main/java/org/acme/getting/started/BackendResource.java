@@ -38,7 +38,7 @@ public class BackendResource {
     @ConfigProperty(name = "app.backend", defaultValue = "http://localhost:8080/backend/version")
     String backend;
 
-    @ConfigProperty(name = "app.message", defaultValue = "Hello, World")
+    @ConfigProperty(name = "app.message", defaultValue = "Hello, World from João")
     String message;
 
     @ConfigProperty(name = "app.secretMessage", defaultValue = "Not Found Secret")

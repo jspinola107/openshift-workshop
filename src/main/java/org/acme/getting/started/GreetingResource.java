@@ -28,6 +28,6 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         LOG.info("call hello");
-        return "Otávio";
+        return "Hello World!";
     }
 }

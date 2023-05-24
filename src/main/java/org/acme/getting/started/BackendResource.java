@@ -107,7 +107,7 @@ public class BackendResource {
                     }
 
                     return Response.status(returnCode).encoding("text/plain")
-                        .entity(generateMessage("Hello world from JoãoJoão", Integer.toString(returnCode)))
+                        .entity(generateMessage("Hello world from Openshift!", Integer.toString(returnCode)))
                         .expires(Date.from(Instant.now().plus(Duration.ofMillis(0))))
                         .build();
                 }
